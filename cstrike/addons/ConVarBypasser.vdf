@@ -1,0 +1,3 @@
+Plugin {
+	file "addons/ConVarBypasser"
+}

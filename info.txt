@@ -1,0 +1,8 @@
+drop contents of .zip file into YOURSTEAMDIR/steamapps/common/Counter-Strike Source folder
+run start.bat
+
+add **cmd /c start** to the start of the batch file if you don't want the command line window when launching
+
+please read https://github.com/shavitush/bhoptimer/wiki if you want any more information on how to configure the timer
+
+some plugins that might be useful are in sourcemod/plugins/disabled

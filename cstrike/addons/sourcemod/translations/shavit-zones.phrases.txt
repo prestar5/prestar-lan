@@ -1,0 +1,527 @@
+"Phrases"
+{
+	// ---------- Admin Menu ---------- //
+	"AddMapZone"
+	{
+		"en"		"Add map zone"
+	}
+	"DeleteAllMapZone"
+	{
+		"en"		"Delete ALL map zones"
+	}
+	"DeleteMapZone"
+	{
+		"en"		"Delete map zone"
+	}
+	// --------- Set Start --------- //
+	"SetStart"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Start position has been {1}set{2}."
+	}
+	"SetStartCommandAlive"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"You have to be {1}alive{2} to set your start position."
+	}
+	"DeleteSetStart"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Start position has been {1}deleted{2}."
+	}
+	"DeleteSetStartMenuTitle"
+	{
+		"en"        "Start position to delete"
+	}
+	// ---------- ZoneHook ---------- //
+	"ZoneHook_Crosshair"
+	{
+		"en"        "Entity under crosshair"
+	}
+	"ZoneHook_Tpto"
+	{
+		"en"        "Teleport to (stops timer)"
+	}
+	"ZoneHook_Draw"
+	{
+		"en"        "Draw beams around entity"
+	}
+	"ZoneHook_Zonetype"
+	{
+		"#format"   "{1:s}"
+		"en"        "Zone type: {1}"
+	}
+	"ZoneHook_Hooktype"
+	{
+		"#format"   "{1:s},{2:s}"
+		"en"        "Hook type: {1} ({2})"
+	}
+	"ZoneHook_Confirm"
+	{
+		"en"        "Go to confirm"
+	}
+	// ---------- Commands ---------- //
+	"StageCommandAlive"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"You have to be {1}alive{2} to use this command."
+	}
+	"ModifierCommandNoArgs"
+	{
+		"en"		"Usage: sm_modifier <decimal number>"
+	}
+	"ModifierTooLow"
+	{
+		"en"		"Modifier must be higher than 0."
+	}
+	"ModifierSet"
+	{
+		"en"		"Modifier set to"
+	}
+	"ZonesCommand"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"You {1}cannot{2} setup mapzones when you're dead."
+	}
+	"ZonesNotSQL"
+	{
+		"#format"   "{1:s},{2:s}"
+		"en"        "You {1}cannot{2} add/edit/delete non-sql zones."
+	}
+	"ZoneCustomSpawnMenuTitle"
+	{
+		"en"		"Add custom spawn for track:"
+	}
+	"ZoneCustomSpawnMenuDeleteTitle"
+	{
+		"en"		"Delete custom spawn for track:"
+	}
+	"ZoneCustomSpawnExists"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Custom Spawn for track {1}{2}{3} already exists. Please delete it before placing a new one."
+	}
+	"ZoneCustomSpawnMissing"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Custom Spawn for track {1}{2}{3} is missing."
+	}
+	"ZoneCustomSpawnDelete"
+	{
+		"en"		"Deleted Custom Spawn successfully."
+	}
+	"ZoneDead"
+	{
+		"en"		"You can't place zones when you're dead."
+	}
+	// ---------- Panel Text ---------- //
+	"AbortZoneCreation"
+	{
+		"en"		"Abort zone creation"
+	}
+	"GridSnapPlus"
+	{
+		"#format"	"{1:d}"
+		"en"		"Grid snap + (x{1})"
+	}
+	"GridSnapMinus"
+	{
+		"en"		"Grid snap -"
+	}
+	"WallSnap"
+	{
+		"#format"	"{1:T}"
+		"en"		"Snap to wall: {1}"
+	}
+	"CursorZone"
+	{
+		"#format"	"{1:T}"
+		"en"		"Use cursor position: {1}"
+	}
+	// ---------- Zone Menu ---------- //
+	"ZoneAdjustCancel"
+	{
+		"en"		"Cancel"
+	}
+	"ZoneAdjustDone"
+	{
+		"en"		"Done!"
+	}
+	"ZoneAdjustPosition"
+	{
+		"en"		"Adjust the zone's position.\nUse 'sm_modifier <number>' to set a new modifier."
+	}
+	"ZoneAxis"
+	{
+		"en"		"Change Axis"
+	}
+	"ZoneCustomSpawnSuccess"
+	{
+		"en"		"Successfully placed custom spawn!"
+	}
+	"ZoneDecreased"
+	{
+		"en"		"decreased"
+	}
+	"ZoneEditConfirm"
+	{
+		"en"		"Confirm?"
+	}
+	"ZoneDeleteSuccessful"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"Deleted {1}{2}{3} successfully."
+	}
+	"ZoneDeleteAllSuccessful"
+	{
+		"en"		"Deleted all map zones successfully"
+	}
+	"ZoneFirst"
+	{
+		"en"		"FIRST"
+	}
+	"ZoneIncreased"
+	{
+		"en"		"increased"
+	}
+	"ZoneMenuDeleteTitle"
+	{
+		"en"		"Delete a zone:\nPressing a zone will delete it. This action CANNOT BE REVERTED!"
+	}
+	"ZoneMenuDeleteALLTitle"
+	{
+		"en"		"Delete ALL mapzones?\nPressing 'Yes' will delete all the existing mapzones for this map.\nThis action CANNOT BE REVERTED!"
+	}
+	"ZoneMenuNo"
+	{
+		"en"		"NO!"
+	}
+	"ZonesMenuNoneFound"
+	{
+		"en"		"No zones found."
+	}
+	"ZoneMenuStage"
+	{
+		"en"		"Select A Stage:"
+	}
+	"ZoneMenuTrack"
+	{
+		"en"		"Select a track:"
+	}
+	"ZoneMenuTitle"
+	{
+		"#format"	"{1:s}"
+		"en"		"Select a zone type: ({1})"
+	}
+	"ZoneMenuYes"
+	{
+		"en"		"YES!!! DELETE ALL THE MAPZONES!!!"
+	}
+	"ZonePlaceText"
+	{
+		"#format"	"{1:s}"
+		"en"		"Press USE (default 'E') to set the {1} corner in your current position."
+	}
+	"ZonePlaceTextTF2"
+	{
+		"#format"	"{1:s}"
+		"en"		"Press ATTACK2 (default 'right click') to set the {1} corner in your current position."
+	}
+	"ZonePoint"
+	{
+		"#format"	"{1:d},{2:c}"
+		"en"		"Point {1} | {2} axis"
+	}
+	"ZoneSecond"
+	{
+		"en"		"SECOND"
+	}
+	"ZoneSetAdjust"
+	{
+		"en"		"Adjust position"
+	}
+	"ZoneForceRender"
+	{
+		"#format"	"{1:s}"
+		"en"		"[{1}] Force zone drawing"
+	}
+	"ZoneSetAiraccelerate"
+	{
+		"#format"	"{1:d}"
+		"en"		"Airaccelerate: {1}"
+	}
+	"ZoneSetSpeedLimit"
+	{
+		"#format"	"{1:d}"
+		"en"		"Custom speed limit: {1}"
+	}
+	"ZoneSetSpeedLimitUnlimited"
+	{
+		"#format"	"{1:d}"
+		"en"		"Custom speed limit: {1} (No Limit)"
+	}
+	"ZoneSetStage"
+	{
+		"#format"	"{1:d}"
+		"en"		"Stage: {1}"
+	}
+	"ZoneSetGravity"
+	{
+		"#format"   "{1:f}"
+		"en"        "Gravity scale: {1}"
+	}
+	"ZoneSetSpeedmod"
+	{
+		"#format"   "{1:f}"
+		"en"        "Speedmod: {1}"
+	}
+	"ZoneEnterDataChat"
+	{
+		"en"		"Input your desired data in chat."
+	}
+	"ZoneSetNo"
+	{
+		"en"		"No"
+	}
+	"ZoneSetTP"
+	{
+		"en"		"Yes (choose teleport destination first)"
+	}
+	"ZoneSetTPZone"
+	{
+		"en"		"Update teleport destination"
+	}
+	"ZoneSetYes"
+	{
+		"en"		"Yes"
+	}
+	"ZoneSizeIncrease"
+	{
+		"#format"	"{1:s},{2:c},{3:s},{4:d},{5:s},{6:.01f},{7:s}"
+		"en"		"{1}{2} axis{3} (point {4}) increased by {5}{6}{7}."
+	}
+	"ZoneSizeDecrease"
+	{
+		"#format"	"{1:s},{2:c},{3:s},{4:d},{5:s},{6:.01f},{7:s}"
+		"en"		"{1}{2} axis{3} (point {4}) decreased by {5}{6}{7}."
+	}
+	"ZoneTeleportUpdated"
+	{
+		"en"		"Teleport destination updated."
+	}
+	"ZoneTeleportInsideZone"
+	{
+		"en"		"You may not place the destination inside the zone."
+	}
+	"ZoneEditTrack"
+	{
+		"#format"	"{1:s}"
+		"en"		"Zone track: {1}"
+	}
+	"ZoneEdit"
+	{
+		"en"		"Edit a map zone"
+	}
+	"HookZone"
+	{
+		"en"        "Hook a trigger, teleporter, or button."
+	}
+	"HookZone2"
+	{
+		"#format"   "{1:s}"
+		"en"        "Hook {1}"
+	}
+	"ZoneEditTitle"
+	{
+		"en"		"Choose a zone to edit:"
+	}
+	"ZoneInside"
+	{
+		"en"		"(Inside!)"
+	}
+	"ZoneEditRefresh"
+	{
+		"en"		"Refresh menu"
+	}
+	"TpToZone"
+	{
+		"en"        "Teleport to a zone"
+	}
+	// ---------- Custom Zone ---------- //
+	"CustomZone_MainMenuTitle"
+	{
+		"en"		"Select the zone you want to customize"
+	}
+	"CustomZone_SubMenuTitle"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Customizing {1} - {2}"
+	}
+	"CustomZone_DisplayType"
+	{
+		"en"		"Zone display type"
+	}
+	"CustomZone_Color"
+	{
+		"en"		"Zone color"
+	}
+	"CustomZone_Width"
+	{
+		"en"		"Zone width"
+	}
+	"CustomZone_Default"
+	{
+		"en"		"Default"
+	}
+
+	"CustomZone_DisplayType_None"
+	{
+		"en"		"None"
+	}
+	"CustomZone_DisplayType_Box"
+	{
+		"en"		"Box"
+	}
+	"CustomZone_DisplayType_Flat"
+	{
+		"en"		"Flat"
+	}
+
+	"CustomZone_Color_White"
+	{
+		"en"		"White"
+	}
+	"CustomZone_Color_Red"
+	{
+		"en"		"Red"
+	}
+	"CustomZone_Color_Orange"
+	{
+		"en"		"Orange"
+	}
+	"CustomZone_Color_Yellow"
+	{
+		"en"		"Yellow"
+	}
+	"CustomZone_Color_Green"
+	{
+		"en"		"Green"
+	}
+	"CustomZone_Color_Cyan"
+	{
+		"en"		"Cyan"
+	}
+	"CustomZone_Color_Blue"
+	{
+		"en"		"Blue"
+	}
+	"CustomZone_Color_Purple"
+	{
+		"en"		"Purple"
+	}
+	"CustomZone_Color_Pink"
+	{
+		"en"		"Pink"
+	}
+
+	"CustomZone_Width_UltraThin"
+	{
+		"en"		"Ultra thin"
+	}
+	"CustomZone_Width_Thin"
+	{
+		"en"		"Thin"
+	}
+	"CustomZone_Width_Normal"
+	{
+		"en"		"Normal"
+	}
+	"CustomZone_Width_Thick"
+	{
+		"en"		"Thick"
+	}
+	// ---------- Messages ---------- //
+	"ZoneSlayEnter"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{1}You have been slain for entering a {2}glitch zone{3}."
+	}
+	"ZoneStopEnter"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{1}Your timer has been stopped for entering a {2}glitch zone{3}."
+	}
+	"ZoneStageEnter"
+	{
+		"#format"	"{1:s},{2:s},{3:d},{4:s},{5:s},{6:s}{7:s}"
+		"en"		"{1}Stage {2}{3}{4} @ {5}{6}{7} "
+	}
+	"Zone_Start"
+	{
+		"en"		"Start zone"
+	}
+	"Zone_End"
+	{
+		"en"		"End zone"
+	}
+	"Zone_Respawn"
+	{
+		"en"		"Glitch Zone (Respawn Player)"
+	}
+	"Zone_Stop"
+	{
+		"en"		"Glitch Zone (Stop Timer)"
+	}
+	"Zone_Slay"
+	{
+		"en"		"Slay Player"
+	}
+	"Zone_Freestyle"
+	{
+		"en"		"Freestyle Zone"
+	}
+	"Zone_CustomSpeedLimit"
+	{
+		"en"		"Custom Speed Limit"
+	}
+	"Zone_Teleport"
+	{
+		"en"		"Teleport Zone"
+	}
+	"Zone_CustomSpawn"
+	{
+		"en"		"SPAWN POINT"
+	}
+	"Zone_Easybhop"
+	{
+		"en"		"Easybhop Zone"
+	}
+	"Zone_Slide"
+	{
+		"en"		"Slide Zone"
+	}
+	"Zone_Airaccelerate"
+	{
+		"en"		"Custom Airaccelerate"
+	}
+	"Zone_Stage"
+	{
+		"en"		"Stage Zone"
+	}
+	"Zone_NoTimerGravity"
+	{
+		"en"		"No Timer Gravity Zone"
+	}
+	"Zone_Gravity"
+	{
+		"en"		"Gravity Zone"
+	}
+	"Zone_Speedmod"
+	{
+		"en"		"Speedmod Zone"
+	}
+	"Zone_Unknown"
+	{
+		"en"		"UNKNOWN ZONE"
+	}
+}

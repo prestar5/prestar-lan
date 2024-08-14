@@ -1,0 +1,23 @@
+sv_downloadurl "http://main.fastdl.me/"
+
+sv_cheats 1
+
+sv_maxcmdrate 101
+sv_mincmdrate 100
+sv_maxupdaterate 101
+sv_minupdaterate 100
+
+mp_autokick 0
+mp_freezetime 0
+bot_quota_mode normal
+sv_hudhint_sound 0
+mp_ignore_round_win_conditions 1
+mp_autoteambalance 0
+mp_limitteams 0
+bot_join_after_player 0
+bot_dont_shoot 1
+bot_chatter off
+mp_roundtime 0
+mp_autoteamrebalance 0
+
+sv_maxvelocity 2412789647619829487

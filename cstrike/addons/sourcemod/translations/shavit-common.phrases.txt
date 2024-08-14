@@ -1,0 +1,76 @@
+"Phrases"
+{
+	// ---------- Tracks ---------- //
+	"Track"
+	{
+		"en"		"Track"
+	}
+	"Track_Unknown"
+	{
+		"en"		"UNKNOWN TRACK"
+	}
+	"Track_Main"
+	{
+		"en"		"Main"
+	}
+	"Track_Bonus"
+	{
+		"#format"	"{1:d}"
+		"en"		"Bonus {1}"
+	}
+	"Track_Bonus_NoNum"
+	{
+		"en"		"Bonus"
+	}
+	// ---------- Commands ---------- //
+	"NoCommandAccess"
+	{
+		"en"		"You do not have access to this command."
+	}
+	"NoConsole"
+	{
+		"en"		"Run this command from inside the game."
+	}
+	"ArgumentsMissing"
+	{
+		"#format"	"{1:s}"
+		"en"		"Usage: {1}"
+	}
+	"TimerCommands"
+	{
+		"en"		"Timer Commands"
+	}
+	// ---------- Timelimit ---------- //
+	"Minutes"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} minutes remaining."
+	}
+	"Seconds"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} seconds remaining."
+	}
+	"Extended"
+	{
+		"#format" "{1:s},{2:N},{3:s},{4:s},{5:d},{6:s}"
+		"en"  	"{1}{2}{3} extended the map by {4}{5}{6} minutes."
+	}
+	// ----------- Random ----------- //
+	"TimerLoading"
+	{
+		"en"        "Loading.."
+	}
+	"Timescale"
+	{
+		"en"        "Timescale"
+	}
+	"CurrentTimescale"
+	{
+		"en"        "Current Timescale"
+	}
+	"OpenSteamProfile"
+	{
+		"en"        "Open Steam profile"
+	}
+}
