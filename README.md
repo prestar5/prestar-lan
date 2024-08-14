@@ -5,6 +5,7 @@ This is your standard run-of-the-mill shavit bhop server
 ## Install Guide
 1. Download this repo
 2. Drag the file into the Counter-Strike Source folder in your Steam directory
+
 Have fun :)
 
 ## Features
