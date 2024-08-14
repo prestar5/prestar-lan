@@ -1,8 +1,14 @@
 # prestar-lan
 This is my CS:S LAN server for bhop. It is preconfigured so hopefully you won't have to do anything.
+This is your standard run-of-the-mill shavit bhop server
+
+## Install Guide
+1. Download this repo
+2. Drag the file into the Counter-Strike Source folder in your Steam directory
+Have fun :)
 
 ## Features
-- TAS Tools, better than the stock Shavit ones
+- External TAS Tools, better than the stock shavit checkpoints, can also be used for segging
 - In game map downloader, accessible with /getmap
 - Configured to SJ standards, hopefully
 - Miscellaneous styles nobody cares about
