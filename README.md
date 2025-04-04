@@ -1,4 +1,10 @@
 # prestar-lan
+
+---
+# IMPORTANT NOTICE
+The premade LAN server will not work if you are running the new x64 build of CS:S. However, it will still function on previous versions of the game.
+---
+
 This is my CS:S LAN server for bhop. It is preconfigured so hopefully you won't have to do anything.
 This is your standard run-of-the-mill shavit bhop server
 
